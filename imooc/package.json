@@ -1,0 +1,19 @@
+{
+  "name": "imooc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyue2018/imooc.git"
+  },
+  "author": "liyue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liyue2018/imooc/issues"
+  },
+  "homepage": "https://github.com/liyue2018/imooc#readme"
+}

@@ -1,0 +1,1597 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.about-main{
+    min-height:750px;
+    margin: 20px 0;
+}
+.other-left {
+    padding: 0 20px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+.other-left li{
+    width: 220px;
+    height: 60px;
+    border-bottom:1px solid #edf1f2;
+}
+.other-left li.selected{
+    margin-left: -20px;
+    padding-left: 20px;
+    border-left:2px solid #e70114;
+}
+.other-left li a {
+    padding: 0 10px 0 30px;
+    line-height: 60px;
+    color: #787d82;
+}
+.other-left li a:hover {
+    color: #000;
+}
+.other-right {
+    margin-left: 280px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+.other-right-wrap {
+    padding: 10px 40px;
+    min-height: 750px;
+}
+
+/*联系我们*/
+
+.contact-title {
+    color: #363d40;
+    line-height: 48px;
+    border-bottom: 1px solid #eceff0;
+}
+.other-contact li {
+    width: 285px;
+    margin-bottom: 30px;
+    margin-right: 120px;
+    border-bottom: 1px solid #eceff0;
+
+}
+.other-contact p {
+    color: #656e73;
+}
+
+/*友情链接*/
+
+.friend-links {
+    padding: 0 20px;
+}
+
+.friend-links li {
+    width: 190px;
+    line-height: 4em;
+}
+.friend-links li a {
+    font-size: 12px;
+    color: #14191e;
+}
+.friend-links li a:hover {
+    text-decoration: underline;
+}
+
+/*招募讲师*/
+.space-side {
+    margin:30px 20px;
+    color: #656e73;
+    padding-left: 20px;
+}
+.job-block h2 {
+    font-size: 15px;
+    color: #303538;
+    margin: 1em 0;
+}
+.job-block ol {
+    padding-left: 5px;
+    font-size: 12px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.go-join {
+    display: inline-block;
+    padding: 12px 40px;
+    margin-top: 20px;
+    background-color: #00b33b;
+    color: #fff;
+    border-color: #00d747;
+    transition: all .3s;
+}
+a.go-join:hover {
+    background-color: #00d747;
+}
+
+/*人才招聘*/
+.preface {
+    font-size: 12px;
+    border-bottom:1px solid #eceff0;
+}
+.preface>p {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.job-nav {
+    padding-top: 30px;
+    margin-bottom: 28px;
+}
+.job-nav li {
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+}
+.job-nav li a {
+    color: #6ccb7a;
+    font-size: 15px;
+    font-weight: 700;
+}
+.job-nav li a:hover {
+    color: #00a028;
+    text-decoration: underline;
+}
+.works-wrap {
+    padding-bottom: 40px;
+}
+.works-wrap>h2 {
+    font-size: 20px;
+    font-weight:400;
+    padding-bottom: 20px;
+}
+
+/*企业合作*/
+.faq {
+    color: #656e73;
+}
+.faq-info {
+    margin-top: 50px;
+    line-height: 2;
+}
+.faq-info p {
+    margin: 20px 0;
+}
+.faq-info h4 {
+    font-size: 20px;
+    line-height: 3.6;
+}
+.others-contact {
+    min-width: 836px;
+    padding-top: 30px;
+    border-top: 1px solid #eceff0;
+    color: #60686b;
+    padding-bottom: 100px;
+}
+.others-contact h4 {
+    font-size: 20px;
+}
+
+/*常见问题*/
+.faq-body {
+    background-color: #fff;
+}
+.faq-main {
+    min-height: 750px;
+}
+.help-layout,.help-layout * {
+    box-sizing: border-box;
+}
+.help-layout {
+    width: 1200px;
+    box-sizing: border-box;
+    margin:40px auto 0;
+}
+.help-side {
+    width: 224px;
+    background-color: #f8fafc;
+}
+.help-side .hd {
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    padding:17px 0;
+    margin: 0 25px;
+}
+.menus li a {
+    color: #14191e;
+    padding-left: 50px;
+    line-height: 40px;
+    transition: background-color .3s ease;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 332124 */
+    src: url('http://at.alicdn.com/t/font_9cqhjmhihot21emi.eot');
+    src: url('http://at.alicdn.com/t/font_9cqhjmhihot21emi.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_9cqhjmhihot21emi.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_9cqhjmhihot21emi.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_9cqhjmhihot21emi.svg#iconfont') format('svg');
+}
+.icon-right {
+    display: inline-block;
+    margin-left: 60px;
+    padding-bottom: 5px;
+    color: #9c9c9c;
+
+}
+.menus li a:hover .icon-right {
+    color: #e70114;
+}
+.menus li a:hover {
+    background-color: rgba(0,0,0,.04);
+    color: #e70114;
+}
+.menus {
+    margin-bottom: 20px;
+}
+.hr-line {
+    width: 174px;
+    height: 0;
+    border-top: 1px solid #d9dde1;
+    margin: 0 auto;
+}
+.help-side .hd {
+    padding-top: 30px;
+}
+
+.help-main {
+    margin-left: 224px;
+}
+.help-pannel {
+    padding: 0 50px 60px;
+}
+.help-pannel .hd {
+    font-size: 12px;
+    color: #93999f;
+    line-height: 28px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d0d6d9;
+}
+.help-pannel .hd span {
+    color: #2b333b;
+}
+.faq-list {
+    padding-top: 30px;
+    font-size:12px;
+    color: #787d82;
+}
+.faq-item {
+    padding: 0 24px 28px;
+    border-bottom: 1px solid #d0d6d9;
+    margin-bottom:28px;
+}
+.faq-item dt {
+    padding-bottom: 10px;
+}
+.faq-item dt a {
+    font-size: 18px;
+    color: #14191e;
+    font-weight:700;
+}
+.faq-item dd .more a {
+    color: #787d82;
+    margin-top:10px;
+}
+.faq-item a:hover,.faq-item .more a:hover {
+    color: #e70114;
+}
+
+/*意见反馈*/
+.feedback-main {
+    min-height:750px;
+    padding: 20px 0;
+}
+.main-left {
+    float: left;
+    width: 825px;
+}
+.main-right {
+    width: 326px;
+    margin-left: 900px;
+    margin-top: 20px;
+    background-color: #f3f5f7;
+    color: #4d555d;
+    padding: 24px;
+}
+.main-right h4 {
+    color: #07111b;
+    font-weight:700;
+    font-size: 16px;
+    margin-bottom:20px;
+}
+.main-right li {
+    line-height: 1.8;
+}
+.main-left .headerTitle {
+    color: #14191e;
+    border-bottom: 1px solid #b7bbbf;
+    font-size:16px;
+    font-weight:bolder;
+    padding-bottom: 20px;
+}
+.typeselct {
+    margin-top: 20px;
+}
+.typeselct span {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 8px;
+    color: #5e666e;
+}
+.result-wrap {
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: #656e73;
+    /*display: none;*/
+
+}
+.result-wrap h1 {
+    color: #656e73;
+    font-size: 24px;
+}
+
+.filed-wrap {
+    padding: 0 24px;
+}
+.filed-wrap textarea {
+    width: 776px;
+    height: 140px;
+    resize: none;
+    overflow: hidden;
+    border:1px solid #d0d6d9;
+    padding: 10px 7px;
+    transition: border-color .2s;
+    font-size: 14px;
+    outline: none;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 332124 */
+    src: url('http://at.alicdn.com/t/font_ifobyg3joqn6ogvi.eot');
+    src: url('http://at.alicdn.com/t/font_ifobyg3joqn6ogvi.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_ifobyg3joqn6ogvi.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_ifobyg3joqn6ogvi.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_ifobyg3joqn6ogvi.svg#iconfont') format('svg');
+}
+.addBtn {
+    width: 80px;
+    line-height: 80px;
+    border: 1px solid rgb(223, 227, 230);
+    margin-bottom: 20px;
+    color: rgb(183, 187, 191);
+    cursor: pointer;
+    margin-top: 30px;
+    text-align: center;
+}
+.icon-puls {
+    font-size: 30px;
+}
+.uploadImgsTip span {
+    color: #EF1300;
+}
+.filed-wrap .phd {
+    width: 776px;
+    line-height: 40px;
+    padding: 0 10px;
+    border: 1px solid #d0d6d9;
+    font-size: 14px;
+}
+.filed-wrap .tip-error {
+    color: #be3948;
+    font-size: 12px;
+    line-height: 30px;
+}
+.editinfo {
+    background-color: #f4f7f8;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    color: #787d82;
+}
+.editinfo .url-input {
+    width: 736px;
+    line-height: 40px;
+    padding:0 10px;
+    font-size: 14px;
+}
+.btn-wrap {
+    text-align: right;
+    margin-top: 20px;
+}
+.btn-wrap button {
+    display: inline-block;
+    background-color: #39b94e;
+    padding: 15px 40px;
+    color: #fff;
+    font-size:14px;
+
+}
+.feedback-content {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.feedback-head {
+    width: 100%;
+    border-bottom: 1px solid #b7bbbf;
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.feedback-head a{
+    color: #83888c;
+}
+.feedback-content .no-data {
+    text-align: center;
+    padding:100px 0;
+    font-size: 24px;
+    color: #c8cdd2;
+}
+
+/*IT技术资讯*/
+.article-main {
+    background-color: #fff;
+    padding-top: 40px;
+    min-height:750px;
+    overflow: hidden;
+}
+.article-left {
+    float: left;
+    width: 840px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+.ad-creat {
+    height: 80px;
+    background: url("../images/creatbg.png") no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.ad-creat h3 {
+    display: inline-block;
+    margin-right: 240px;
+    font-size: 18px;
+    color: #14191e;
+    padding-left: 30px;
+    padding-top: 28px;
+}
+a.create-ques {
+    display: inline-block;
+    color: #fff;
+    font-weight:bold;
+    padding: 10px 20px;
+    background-color: #f01400;
+}
+a.create-ques:hover {
+    opacity: .7;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 332124 */
+    src: url('http://at.alicdn.com/t/font_yrqs96lqupx2yb9.eot');
+    src: url('http://at.alicdn.com/t/font_yrqs96lqupx2yb9.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_yrqs96lqupx2yb9.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_yrqs96lqupx2yb9.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_yrqs96lqupx2yb9.svg#iconfont') format('svg');
+}
+.ad-creat .icon-close {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 6px;
+    color: #787d82;
+    font-size: 12px;
+    cursor: pointer;
+}
+.ad-creat .icon-close:hover {
+    color: #f01400;
+}
+.article-ad-img {
+    width: 520px;
+    height: 240px;
+}
+.article-ad-txt {
+    position: absolute;
+    font-size:24px;
+    color: #fff;
+    width: 520px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: -80px;
+    font-weight: 700;
+    padding: 20px;
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.1),rgba(0,0,0,.2),rgba(0,0,0,.3),rgba(0,0,0,.4),rgba(0,0,0,.5));
+}
+.ad-font {
+    padding-bottom: 36px;
+}
+.ad-r-wrap {
+    width: 320px;
+    height: 240px;
+    margin-left: 520px;
+    background-color: #f3f5f7;
+    padding: 0 20px;
+}
+.ad-r-wrap h2 {
+    font-size:18px;
+    font-weight: 700;
+    padding-top: 35px;
+    word-break: break-all;
+}
+.ad-r-wrap h2 a {
+    width: 278px;
+    overflow: hidden;
+    color: #07111b;
+}
+.ad-tags-list {
+    font-size: 12px;
+    width: 280px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 12px;
+    margin-top: 10px;
+}
+.ad-tags-list a {
+    color: #71777d;
+    display: inline-block;
+}
+.ad-line {
+    height: 0px;
+    width: 280px;
+    border-bottom: 1px solid #b7bbbf;
+}
+.tag-wrap {
+    margin: 30px 0 20px;
+}
+.article-tab a {
+    float: left;
+    padding: 8px 10px;
+    color: #4d555d;
+    background-color: #f3f5f7;
+    margin-right: 10px;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 332124 */
+    src: url('http://at.alicdn.com/t/font_khh17nsdbs3piudi.eot');
+    src: url('http://at.alicdn.com/t/font_khh17nsdbs3piudi.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_khh17nsdbs3piudi.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_khh17nsdbs3piudi.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_khh17nsdbs3piudi.svg#iconfont') format('svg');
+}
+.icon-dropDown {
+    color: #93999f;
+}
+.article-toolBar {
+    margin-top: 10px;
+    border-bottom: 1px solid #b7bbbf;
+}
+.tool-left .sort-item {
+    float: left;
+    padding: 10px 0;
+    color: #4D555B;
+    font-size:16px;
+    margin-right: 48px;
+    margin-bottom: -1px;
+}
+.tool-left .active {
+    border-bottom: 2px solid #f01400;
+    color: #f01400;
+}
+.article-lwrap {
+    padding: 30px 0 10px;
+    border-bottom: 1px solid #d9dde1;
+}
+.item-title .title-detail {
+    color: #14191e;
+    font-size: 20px;
+    font-weight: 700;
+}
+.item-title .original {
+    display: inline-block;
+    padding: 3px 5px;
+    color: #71777d;
+    font-size: 12px;
+    border: 1px solid #71777d;
+}
+.item-txt {
+    margin-top: 20px;
+}
+.item-img {
+    float: left;
+    width: 210px;
+    height: 130px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.item-bd {
+    min-height: 140px;
+    overflow:hidden;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.item-btm{
+    color: #93999f;
+    padding: 14px 0 25px;
+}
+.item-btm .left-info a{
+    float: left;
+    margin-right: 10px;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 332124 */
+    src: url('http://at.alicdn.com/t/font_qav5wpe6xi1i3sor.eot');
+    src: url('http://at.alicdn.com/t/font_qav5wpe6xi1i3sor.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_qav5wpe6xi1i3sor.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_qav5wpe6xi1i3sor.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_qav5wpe6xi1i3sor.svg#iconfont') format('svg');
+}
+.fire-icon{
+    font-size: 12px;
+    color: #e70114;
+}
+.right-info span{
+    padding-right: 30px;
+}
+.pagenation {
+    margin-bottom: 25px;
+    padding-left: 200px;
+}
+.page {
+    padding-top: 35px;
+    text-align: center;
+}
+.page .disabled-page {
+    color: #c8cdd2;
+    padding: 0 8px;
+}
+.page a {
+    float: left;
+    padding: 0 4px;
+    min-width: 24px;
+    border-radius: 16px;
+    color: #4d555d;
+    margin: 0 8px;
+    line-height: 24px;
+    transition: background-color .2s;
+}
+
+.page .active {
+    background-color: #4d555d !important;
+    color: #fff;
+}
+.page .text-page-tag:hover {
+    background-color: #c8cdd2;
+}
+.article-right {
+    width: 280px;
+    float: right;
+    margin-bottom: 70px;
+}
+.article-right .write-ques {
+    border: 5px solid #f01400;
+    color: #f01400;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px 0;
+}
+.article-right .write-ques:hover {
+    background-color: #f01400;
+    color: #fff;
+}
+.ques-wrap {
+    background-color: #f5f7f9;
+    min-height:140px;
+    padding: 20px;
+}
+.ques-info {
+    border-bottom:1px solid #d9dde1;
+    padding-bottom: 22px;
+}
+.ques-info .sharer-head,.ques-info .sharer-head img {
+    float: left;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+.ques-info .sharer-name {
+    color: #14191e;
+    font-size: 18px;
+    padding-top: 4px;
+}
+.num-info li {
+    float: left;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+.num-info a {
+    color: #93999f;
+}
+.num-info a>span {
+    color: #4d555d;
+    margin-left: 10px;
+}
+.panel-hd {
+    font-size: 16px;
+    color: #14191e;
+    border-bottom: 1px solid #b7bbbf;
+    line-height: 58px;
+    margin-top: 30px;
+}
+.remon-sharer li {
+    padding: 15px 0;
+    border-bottom: 1px solid #d9dde1;
+}
+.remon-sharer .publisher-hd img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.arti-info a {
+    display: inline-block;
+    margin-right: 4px;
+    font-size: 16px;
+}
+
+.arti-info a.hd-pic:hover{
+    color: #f01414;
+}
+.arti-info .publisher-sig {
+    display: block;
+    color: #93999f;
+    margin-top: 4px;
+    height: 20px;
+}
+.tag-bd {
+    margin-top: 10px;
+}
+.tag-bd .tag-detail {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f3f5f7;
+    color: #4d555d;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.tag-detail span {
+    color: #b5b9bc;
+    padding-left: 5px;
+}
+.other-article .main-txt a {
+    color: #14191e;
+    font-size: 16px;
+}
+.show-box {
+    line-height: 20px;
+    margin: 5px 0 10px;
+}
+.show-box .spacer {
+    color: #b5b9bc;
+    font-size: 12px;
+    margin-right: 30px;
+}
+.other-article .main-txt {
+    margin-top: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #d9dde1;
+}
+
+/*问答平台*/
+.wenda-left h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #14191e;
+    width: 400px;
+    padding-top: 22px;
+}
+.wenda-left .js-quiz {
+    padding: 10px 40px;
+}
+.recommend {
+    border-bottom: 1px solid #d0d6d9;
+    padding: 20px 0;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 332124 */
+    src: url('http://at.alicdn.com/t/font_k4nktexm68y0t3xr.eot');
+    src: url('http://at.alicdn.com/t/font_k4nktexm68y0t3xr.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_k4nktexm68y0t3xr.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_k4nktexm68y0t3xr.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_k4nktexm68y0t3xr.svg#iconfont') format('svg');
+}
+.icon-flag {
+    color: #6cc;
+    font-size: 22px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.ques-answer {
+    padding-top:20px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #d0d6d9;
+}
+
+.ques-answer .tag-img img {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.tag-txt {
+    margin-left: 55px;
+}
+.ques-answer .from-tag{
+    color: #787d82;
+    font-size: 12px;
+}
+.ques-answer .from-tag a {
+    display: inline-block;
+    color: #787d82;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.ques-con .ques-con-content {
+    font-size: 18px;
+    line-height: 20px;
+    color: #14191e;
+    font-weight: 600;
+    margin-right: 30px;
+    margin-top: 5px;
+    word-break: break-all;
+}
+.answer-con {
+    margin-top: 30px;
+}
+.answer-con .user a {
+    display: inline-block;
+    color: #14191e;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.answer-con .user span {
+    color: #b5b9bc;
+    font-size:12px;
+}
+.answer-con .answer-content{
+    color: #14191e;
+    line-height: 28px;
+    margin-top: 2px;
+    word-break: break-all;
+    overflow: hidden;
+}
+.ctrl-bar {
+    margin-top: 15px;
+    line-height: 24px;
+}
+.ctrl-bar li {
+    float: left;
+    margin-right: 20px;
+}
+.ctrl-bar li a {
+    color: #787d82;
+    font-size: 12px;
+}
+.ctrl-bar li a:hover {
+    color: #5e5e5e;
+    border-color: #5e5e5e;
+}
+.ctrl-bar .agree-with {
+    padding: 0 9px;
+    border: 1px solid #d0d6d9;
+}
+.share-box-con {
+    display: none;
+    position: absolute;
+    margin-left: 43px;
+    margin-top: -25px;
+}
+.share-box-con .icon-share-weichat {
+    color: #b5b9bc;
+    font-size: 18px;
+}
+.ctrl-bar .share-btn:hover .share-box-con {
+    display: block;
+}
+.ques-wrap .user-action {
+    margin-top: 20px;
+}
+.ques-wrap .user-action a {
+    display: inline-block;
+    width: 31%;
+    text-align: center;
+    color: #14191e;
+}
+.ques-wrap .user-action a:hover {
+    color: #e70114;
+}
+.my-follow-class .no-tag {
+    margin-top: 10px;
+    height: 120px;
+    background-color: #fffbe5;
+    padding-top: 30px;
+    color: #14191e;
+    text-align: center;
+    overflow: hidden;
+}
+.my-follow-class .no-tag .follow-immediately {
+    width: 80px;
+    padding: 0 9px;
+    line-height: 30px;
+    background-color: #ff9902;
+    margin: 15px auto 0;
+}
+.no-tag .follow-immediately a {
+    color: #fff;
+}
+.tag-vane .all-cls a {
+    color: #787d82;
+}
+.tag-vane .all-cls {
+    position: absolute;
+    margin-left: 224px;
+    margin-top: -40px;
+}
+.cls-list {
+    margin-top: 24px;
+}
+.cls-list .class-icon img {
+    width: 36px;
+    height: 36px;
+    float: left;
+    margin-right: 15px;
+}
+.cls-list .class-info h4 {
+    color: #14191e;
+    font-size: 16px;
+    font-weight: 600;
+}
+.cls-list .follow-person {
+    font-size:12px;
+    color: #b5b9bc;
+}
+.cls-list .follow {
+    float: right;
+    display: inline-block;
+    margin-top: -32px;
+    padding: 0 10px;
+    line-height: 28px;
+    color: #787d82;
+    border:1px solid #d0d6d9;
+}
+.cls-list .follow:hover {
+    color: #5e5e5e;
+    border-color: #5e5e5e;
+}
+.cls-list .desc {
+    margin-top: 10px;
+    line-height: 24px;
+    color: #787d82;
+    word-break: break-all;
+}
+.advertisement {
+    height: 100px;
+    margin: 30px 0;
+    overflow: hidden;
+}
+.leifeng-sort .leifeng-tab {
+    float: right;
+    margin-left: 25px;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.leifeng-sort span.active {
+    border-bottom: 2px solid #e70114;
+}
+.leifeng-tab-box-min {
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.leifeng-tab-box-min .ranking {
+    font-size: 18px;
+}
+.leifeng-tab-box-min .first {
+    color: #f8b551;
+}
+
+.leifeng-tab-box-min a {
+    display: inline-block;
+}
+.leifeng-tab-box-min .user-pic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.leifeng-tab-box-min .user-name {
+    margin-top: -5px;
+    color: #787d92;
+    font-weight:600;
+}
+.leifeng-tab-box-min .user-name:hover {
+    color: #14191e;
+}
+.leifeng-tab-box-min .user-info {
+    margin-left: 90px;
+    font-size: 12px;
+    color: #b5b9bc;
+    margin-top: -10px;
+}
+.lyleif {
+    height: 45px;
+    margin-top: 20px;
+    border-bottom: 1px solid #edf1f2;
+    text-align: center;
+}
+.lyleif .js-lyleif{
+    color: #b5b9bc;
+    border: 1px solid #fff;
+    line-height: 28px;
+}
+.lyleif .js-lyleif:hover {
+    border: 1px solid #000;
+    background-color: #e9e9e9;
+}
+
+/*实战课程_开发项目实战_编程项目实战-慕课网*/
+
+.top-wrap-box {
+    padding-top: 20px;
+    background-color: #b7bbbf;
+    height: 240px;
+}
+.banner-bg-box {
+    margin:0 auto 20px;
+}
+.banner-bg-box .banner-item {
+    float: left;
+    width: 590px;
+    height: 120px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 8px 16px rgba(7, 17, 27, 0.1);
+    -moz-box-shadow: 0px 8px 16px rgba(7, 17, 27, 0.1);
+    box-shadow: 0px 8px 16px rgba(7, 17, 27, 0.1);
+    margin-right: 20px;
+}
+.no-margin{
+    margin: 0 !important;
+}
+.index-main {
+    /*width: 100%;*/
+    /*max-width:1200px;*/
+    background-color: #f3f5f7;
+}
+.cato-wrap-box {
+    position: absolute;
+    width: 1200px;
+    margin-top: -96px;
+    padding: 36px 48px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(7, 17, 27, 0.1);
+}
+.cato-nav-box {
+    width: 453px;
+    float: left;
+    border-right:1px solid #d9dde1;
+}
+.small-title {
+    font-weight:700;
+    color:#07111b;
+}
+.cato-nav-row {
+    margin-top: 14px;
+    margin-right: 30px;
+}
+.cato-nav-item {
+    float: left;
+    padding: 8px 12px;
+    color: #07111b;
+    line-height: 14px;
+    margin-top: 6px;
+}
+.cato-nav-row a.on {
+    border-radius: 2px;
+    color: #fff;
+    background-color: #f01414;
+}
+.skill-nav-box {
+    width: 602px;
+    float: left;
+    margin-left: 36px;
+}
+.screening-box {
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-top: 140px;
+}
+.screening-box-item {
+    float: left;
+    margin-right: 36px;
+    color: #93999f;
+}
+.screening-box .active {
+    color: #07111b;
+}
+.index-list-wrap {
+    width: 100%;
+    margin: 10em auto 0;
+    padding-bottom: 45px;
+}
+.course-list {
+    width: 1232px;
+    margin: -16px;
+}
+.course-box{
+    float: left;
+    height: auto;
+    width:276px;
+    margin:16px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(7, 17, 27, 0.1);
+    transition: .3s all linear;
+}
+
+.img-box img,.program-list-head img {
+    width: 276px;
+    height: 90px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    overflow: hidden;
+}
+.intro-box {
+    padding: 22px 24px 24px;
+}
+.intro-box .intro-name {
+    color: #07111b;
+    font-size:16px;
+    margin-bottom: 20px;
+    letter-spacing: -0.3px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.intro-box .desc {
+    font-size:12px;
+    color: #93999f;
+    line-height: 24px;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.info-bottom {
+    margin-top: 50px;
+}
+.info-bottom .shizan-info {
+    line-height: 20px;
+    color: #93999f;
+    font-size:12px;
+    font-weight: 400;
+}
+.evaluation-box .stars {
+    color: rgba(255, 153, 0, 0.2);
+    letter-spacing: -2px;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 332124 */
+    src: url('http://at.alicdn.com/t/font_ehdnkm9qzxv42t9.eot');
+    src: url('http://at.alicdn.com/t/font_ehdnkm9qzxv42t9.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_ehdnkm9qzxv42t9.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_ehdnkm9qzxv42t9.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_ehdnkm9qzxv42t9.svg#iconfont') format('svg');
+}
+.stars .on {
+    color: #ff9900;
+}
+.bottom-box .course-price {
+    color: #f01414;
+    font-size: 16px;
+    font-weight: 400;
+}
+.evaluation-desc-box {
+    display: none;
+    position: absolute;
+    margin-top: -116px;
+    width: 228px;
+    padding: 16px 0;
+    color: #fff;
+    background-color: #ff9900;
+    border-radius: 4px;
+}
+.evaluation-box:hover .evaluation-desc-box {
+    display: block;
+}
+.evaluation-desc-box .left-box {
+    width: 118px;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+.evaluation-desc-box .left-box p {
+    font-weight: 400;
+    font-size:12px;
+}
+.evaluation-desc-box .left-box .big-text {
+    font-size: 20px;
+}
+.evaluation-desc-box .right-box {
+    width: 110px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+.evaluation-desc-box .tangle {
+    display: block;
+    position: absolute;
+    bottom: -12px;
+    left: 36px;
+    content: "";
+    height: 0;
+    border: 6px solid transparent;
+    border-top-color: #ff9900;
+}
+.course-list .pagenation {
+    margin-left: 18%;
+}
+
+/*IT职业路径_编程学习路线_开发学习路径-慕课网职业路径*/
+
+.body-main {
+    min-height:750px;
+}
+.program-banner {
+    width: 100%;
+    height: 300px;
+    background: url("../images/class-banner-bg.jpg") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.program-banner .banner-head {
+    color: #fff;
+    text-align: center;
+    padding-top: 5%;
+}
+.banner-head .tit {
+    font-size: 36px;
+    letter-spacing: 10px;
+    text-shadow: 0px 4px 8px rgba(7, 17, 27, 0.9);
+    margin-bottom: 16px;
+}
+.banner-head .intro {
+    text-shadow: 0px 4px 8px rgba(7, 17, 27, 0.4);
+}
+.program-banner .tab-nav {
+    position: absolute;
+    left: 5%;
+    bottom: 8%;
+    width: 1104px;
+    height: 120px;
+    margin: 0 auto;
+    padding: 28px 24px 0;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(7, 17, 27, 0.1);
+    border-radius: 12px;
+    z-index: 1;
+}
+.tab-nav .navitem {
+    width: 128px;
+    height: 92px;
+    float: left;
+    margin: 0 24px;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+}
+.tab-nav .active {
+    color: #5e5e5e;
+    border-bottom: 2px solid #f01414;
+}
+.navitem .navicon {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: url("../images/nav.png") no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.navitem .all {
+    background-position: 0 0;
+}
+.navitem .navtext {
+    display: inline-block;
+    margin-top: 10px;
+    color: #93999f;
+    font-weight:400;
+    transition: .5s all linear;
+}
+
+.navitem:hover .navicon {
+    margin-top: -4px;
+    transition: .3s all linear;
+}
+.navitem:hover .navtext {
+    color: #5e5e5e;
+}
+
+.program-list {
+    margin-top: 98px;
+    padding-bottom: 50px;
+}
+.MMM {
+    height: 300px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:0;
+    background: rgba(255,255,255,0.14);
+    margin-top: 60px;
+}
+.program-list-cont .text {
+    font-size: 12px;
+    color: #93999f;
+    font-weight: 400;
+    padding-right: 90px;
+    padding-bottom: 4px;
+}
+.program-list-cont  .price {
+    font-size: 16px;
+    color: #f01414;
+    font-weight:400;
+}
+.program-list-head {
+    height: 90px;
+    background-color: #f3f5f7;
+    overflow: hidden;
+}
+.program-list-head:hover .program-img {
+    transform: scale(1.3);
+    transition: all linear .3s;
+}
+.program-list-head:hover {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.program-list .c-line,.program-list .d-line {
+    height: 3px;
+    background-color: #fff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);
+    margin: 0 auto;
+}
+.program-list .c-line {
+    width: 264px;
+    margin-top: -1px;
+    margin-bottom: 2px;
+}
+.program-list .d-line {
+    width: 252px;
+}
+a.program-item:hover .c-line,a.program-item:hover .d-line {
+    transition: all linear .3s;
+    box-shadow: 4px 6px 8px 0 rgba(7,17,27,.3);
+}
+
+
+/*实战开发课程*/
+
+.top-nav {
+    width: 100%;
+    background-color: #fff;
+}
+.course-nav-box {
+    padding-top: 20px;
+}
+.course-nav-row {
+    padding:16px 0 20px;
+    border-bottom: 1px solid #edf1f2;
+}
+.course-nav-row .hd {
+    display: inline-block;
+    float: left;
+    color: #07111b;
+    font-weight:500;
+    padding-left: 5px;
+    line-height: 40px;
+}
+.course-nav-row .bd {
+    margin-left: 64px;
+}
+.course-nav-row .course-nav-item {
+    float: left;
+    padding: 8px 12px;
+    border-radius: 2px;
+    color: #2b333b;
+    margin: 0 8px;
+}
+.course-nav-item:hover {
+    color: #e70114;
+}
+.course-nav-box .bd .on {
+    background-color: #2b333b;
+    color: #fff;
+}
+.index-main .screening-box {
+    padding-top:0;
+}
+
+.index-card-container {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 224px;
+    height: 228px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);
+}
+.course-card-top {
+    height: 48px;
+    padding-left: 20px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background: url("../images/course-box-bg.jpg") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.course-card-top img {
+    height: 48px;
+    overflow: hidden;
+}
+.course-card-top>span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 48px;
+    margin-right: 10px;
+}
+.course-card-content {
+    height: 180px;
+}
+.index-card-container:hover {
+    box-shadow: 0 4px 8px 0 rgba(7,17,27,.4);
+}
+.course-card-content p {
+    height: 48px;
+    margin: 8px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.course-card-content .course-card-name {
+    color: #07111b;
+    max-height: 48px;
+    word-break: break-all;
+    word-wrap: break-word;
+    letter-spacing: -0.1px;
+}
+.course-card-content .info-bottom {
+    padding-top: 10px;
+    margin-top: 0;
+}
+.moco-course-list {
+    padding-left: 16px;
+    padding-top: 15px;
+}
+.szcoursewrap {
+    float: left;
+    width: 224px;
+    height: auto;
+    margin: 0 20px 20px 0;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+    border-radius: 4px;
+    transition: .3s all linear;
+    background-color: #fff;
+    overflow: hidden;
+}
+.szcourse-cart-B {
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 91px;
+    opacity: 1;
+    background-color: #fff;
+    color: #07111b;
+    font-size: 12px;
+    z-index: 1;
+    overflow: hidden;
+}
+.szcourse-cart-B>div {
+    padding: 16px 0;
+    margin: 0 20px;
+    border-bottom: 1px solid #d9dde1;
+}
+.szcourse-name {
+    margin-bottom: 5px;
+}
+.szcourse-bottom {
+    margin-top: 7px;
+}
+.szcourse-num {
+    display: inline-block;
+    float: left;
+    color: #93999f;
+}
+.szcourse-price {
+    margin-left: 60px;
+    color: #f01414;
+}
+.szcourse-cart-A {
+    height: 90px;
+    opacity: 0;
+    transition: .4s all;
+    z-index: 2;
+    overflow: hidden;
+}
+.szcourse-cart-b {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    color: #fff;
+    padding: 15px 20px;
+    background: url("../images/shizan.jpg") center no-repeat;
+    background-size: cover ;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 332124 */
+    src: url('http://at.alicdn.com/t/font_21rw7u5m8h7ojemi.eot');
+    src: url('http://at.alicdn.com/t/font_21rw7u5m8h7ojemi.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_21rw7u5m8h7ojemi.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_21rw7u5m8h7ojemi.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_21rw7u5m8h7ojemi.svg#iconfont') format('svg');
+}
+.szcourse-cart-b .imv2-war {
+    margin-right: 5px;
+}
+.szcourse-p1 span {
+    font-size: 12px;
+    vertical-align: middle;
+}
+.szcourse-p2 {
+    font-weight: 700;
+    margin: 16px 0 4px;
+}
+.szcourse-p3 {
+    overflow: hidden;
+    font-size: 12px;
+    color: rgba(255,255,255,.6);
+    margin: 10px 0;
+}
+.szcourse-cart-b .szcourse-bottom span{
+    color: #fff;
+    font-size: 12px;
+}
+.szcourse-cart-o {
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.7);
+    opacity: .3;
+    z-index: 0;
+}
+.szcourse-cart:hover .szcourse-cart-B {
+    height: 0;
+    opacity: 0;
+    transition: .1s all;
+}
+.szcourse-cart:hover .szcourse-cart-A {
+    height: 204px;
+    opacity: 1;
+    transition: .4s all;
+}
